@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    
+<html>
+        
+    <head>
+        <meta charset="utf-8">
+        <title>Cali Delisle - Contact</title>
+    </head>
+
+    <body>
+        <h1>Contact</h1>
+            <h2>Name</h2>
+                <p>Cali Delisle</p>
+            <h2>Address</h2>
+                <p>828 Sumner Ave. <div>Apt. 2</div> <div>Syracuse, NY 13210</div></p>
+                <p><a href="mailto:carolinebdelisle@gmail.com>Cali Delisle Email</a></p>
+                <p><a href= "https://www.linkedin.com/in/calidelisle/" target="_blank">My LinkedIn Profile</a></p>
+
+    </body>
