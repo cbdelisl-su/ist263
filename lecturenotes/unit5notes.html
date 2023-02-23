@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Day 1</title>
     
-    <link rel="stylesheet" href="unit5styles.css">
+    <style>
+        /* p is our selector, color is our property and cornflower blue is our value */
+        p{
+            color:cornflowerblue;
+            /* this is font size by % - 1.5x the default size
+            font-size:150%; */
+            font-size: 1.5em; /* 50% bigger than default*/
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+        }
+        p a {
+            color:chartreuse;
+            /* all links within p tags will be chartreuse */
+        }
+        #firstlink {color:blueviolet;}
+        .redtext {color: red;}
+    </style>
 
 </head>
 <body>

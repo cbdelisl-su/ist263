@@ -1,0 +1,15 @@
+ /* p is our selector, color is our property and cornflower blue is our value */
+ p{
+    color:cornflowerblue;
+    /* this is font size by % - 1.5x the default size
+    font-size:150%; */
+    font-size: 1.5em; /* 50% bigger than default*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+p a {
+    color:chartreuse;
+    /* all links within p tags will be chartreuse */
+}
+#firstlink {color:blueviolet;}
+.redtext {color: red;}
