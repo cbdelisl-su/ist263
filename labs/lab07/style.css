@@ -1,18 +1,32 @@
 p
-  {color:#9b6546;}
+  {color:#9b6546;
+  font-family: 'Quicksand', sans-serif;}
 body
   {background-color:#FFFFFF;}
 a
   {color: #9b6546;
-  padding: 10px;}
+  padding: 10px;
+  font-family: 'Tilt Warp', cursive;}
 h1
-  {color:#70ade2;}
+  {color:#70ade2;
+  font-family: 'Tilt Warp', cursive;}
 h2
-  {color:#a6cbec;}
+  {color:#a6cbec;
+  font-family: 'Tilt Warp', cursive;}
 nav
   {background-color:#a6cbec;
   color:#9b6546;
   padding: 10px;
-  margin-bottom: 30px;}
+  margin-bottom: 30px;
+  font-family: 'Tilt Warp', cursive;}
 nav a:hover
-    {background-color: #ffffff;}
+    {background-color: #ffffff;
+    font-family: 'Tilt Warp', cursive;}
+li
+    {color:#9b6546;
+    font-family: 'Quicksand', sans-serif;}
+table
+    {font-family: 'Quicksand', sans-serif;}
+hr
+    {color:#a6cbec;
+    font-family:'Quicksand', sans-serif;}
