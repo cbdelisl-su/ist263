@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit 09: Centering</title>
+  
+  <style>
+    .element {color:aqua;}
+    p {text-align: center;}
+    h1, div {background-color:coral;}
+    div { 
+      /*only centers if block element is less than 100% */ 
+      width: 50%; margin: 0 auto; padding: 10px;}
+    section {
+      /* content cannot take up full width; will keep block element as 100% of screen */
+      display: 2px dashed #000000;
+      display: flex;
+      justify-content: center;}
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Centering Horizontally and More Flexbot</h1>
+
+  <h2>Text Centering</h2>
+
+  <p class="element">{text-align: center;}</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia similique consequatur hic dicta omnis vero quae esse nam vel voluptatibus quos recusandae nobis sed explicabo aperiam voluptatem, error accusantium delectus.</p>
+  
+  <h2>Block Centering</h2>
+
+  <div>Block elements take up 100% of the page width by default, so you must first set a width or it won't look like anything happened.</div>
+  
+  <h2>Flexbox Hack</h2>
+
+  <section>
+  <img src="../images/otto.jpeg" alt="mascot"> 
+  </section> 
+  
+</body>
+</html>
