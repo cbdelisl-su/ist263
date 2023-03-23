@@ -1,0 +1,96 @@
+p
+  {color:#9b6546;
+  font-family: 'Quicksand', sans-serif;
+  margin: 8px;}
+span
+  {color:#9b6546;
+    font-family: 'Quicksand', sans-serif;}
+body
+  {background-color:#FFFFFF;}
+a
+  {color: #9b6546;
+  padding: 10px;
+  font-family: 'Tilt Warp', cursive;}
+h1
+  {color:#70ade2;
+  font-family: 'Tilt Warp', cursive;
+  width: 50%; margin: 0 auto; padding: 10px;
+  background-color:antiquewhite; border-radius: 8px; /* temporary */
+  text-align: center;}
+h2
+  {color:#a6cbec;
+  font-family: 'Tilt Warp', cursive;}
+nav
+  {background-color:#a6cbec;
+  color:#9b6546;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: 'Tilt Warp', cursive;}
+nav a:hover
+    {background-color: #ffffff;
+    font-family: 'Tilt Warp', cursive;}
+li
+    {color:#9b6546;
+    font-family: 'Quicksand', sans-serif;}
+table
+    {font-family: 'Quicksand', sans-serif;}
+hr
+    {color:#a6cbec;
+    font-family:'Quicksand', sans-serif;}
+.quote
+    {float: right;}
+.copyright
+  {color:#9b6546;
+  font-family: 'Quicksand', sans-serif;}
+
+.contact1
+  {background-color:antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    flex: 1; order: 1;}
+.contact2
+  { background-color:#a6cbec;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex: 1; order: 2;}
+.right1, .left1, .right2, .left2
+    {margin: 20px;}
+input, select, textarea
+    {color:#9b6546;
+      font-family: 'Quicksand', sans-serif;
+    margin: 8px;
+    border: 8px #70ade2;
+    border-radius: 4px;}
+  .jobtype, label
+    {color:#9b6546;
+      font-family: 'Tilt Warp', cursive;}
+  input [type=text]
+    {border:1px #a6cbec;}
+img
+  {width: 50px;}
+div
+  {color:#9b6546;
+    font-family: 'Quicksand', sans-serif;}
+.skills
+  {justify-content: space-between;
+  display:flex;
+  margin: 8px;
+  padding: 8px;}
+.flexbox1
+  {justify-content: space-between;
+    flex-basis: 75%;}
+.flexbox2
+  {display: flex;}
+.icons, .skillslabels
+  {display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.otherskills
+    {background-color:antiquewhite;
+    padding: 8px;
+    border-radius: 8px;
+    float: right;}
+.skillstext
+    {padding: 10px;
+    margin-bottom: 10px;}
