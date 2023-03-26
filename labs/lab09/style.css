@@ -1,55 +1,62 @@
 /* ALL */
-  
+
+  :root
+    {--lightblue: #a6cbec;
+      --darkblue: #70ade2;
+      --brown: #9b6546;}
   p
-    {color:#9b6546;
+    {color: var(--brown);
       font-family: 'Quicksand', sans-serif;
       margin: 8px;}
   span
-    {color:#9b6546;
+    {color: var(--brown);
       font-family: 'Quicksand', sans-serif;}
   body
     {background-color:#FFFFFF;}
   a
-    {color: #9b6546;
+    {color: var(--brown);
       padding: 10px;
       font-family: 'Tilt Warp', cursive;}
   h1
-    {color:#70ade2;
+    {color: var(--darkblue);
       font-family: 'Tilt Warp', cursive;
       width: 50%; margin: 0 auto; padding: 10px;
       text-align: center;
       /* TEMPORARY */
       background-color:antiquewhite; border-radius: 8px;}
   h2
-    {color:#a6cbec;
+    {color: var(--lightblue);
       font-family: 'Tilt Warp', cursive;}
   nav
-    {background-color:#a6cbec;
-      color:#9b6546;
+    {background-color: var(--lightblue);
+      color: var(--brown);
       padding: 10px;
       margin-bottom: 30px;
       font-family: 'Tilt Warp', cursive;}
   nav a:hover
     {background-color: #ffffff;
       font-family: 'Tilt Warp', cursive;
-      color:#a6cbec;}
+      color: var(--lightblue);}
+  
+/* HOME */
+  
   li
-    {color:#9b6546;
+    {color: var(--brown);
       font-family: 'Quicksand', sans-serif;}
   table
     {font-family: 'Quicksand', sans-serif;}
   hr
-    {color:#a6cbec;
+    {color:var(--lightblue);
       font-family:'Quicksand', sans-serif;}
   .quote
     {float: right;}
   .copyright
-    {color:#9b6546;
+    {color:var(--brown);
       font-family: 'Quicksand', sans-serif;}
   img
     {width: 50px;}
   div
-    {color:#9b6546;
+    {color: var(--brown);
       font-family: 'Quicksand', sans-serif;}
 
 /* CONTACT */
@@ -60,7 +67,7 @@
       justify-content: space-around;
       flex: 1; order: 1;}
   .contact2
-    {background-color:#a6cbec;
+    {background-color: var(--lightblue);
       display: flex;
       justify-content: space-around;
       margin-top: 10px;
@@ -71,13 +78,13 @@
     {color:#9b6546;
       font-family: 'Quicksand', sans-serif;
       margin: 8px;
-      border: 8px #70ade2;
+      border: 8px var(--darkblue);
       border-radius: 4px;}
   .jobtype, label
     {color:#9b6546;
       font-family: 'Tilt Warp', cursive;}
   input [type=text]
-    {border:1px #a6cbec;}
+    {border:1px var(--lightblue);}
 
 /* SKILLS */
   
