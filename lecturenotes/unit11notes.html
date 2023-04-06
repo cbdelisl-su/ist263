@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility</title>
+
+<style>
+  .skip {
+    background-color:aqua;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; /* position element reelative to top left of viewport */
+    top: 10px;
+    left: -999px; /* push it off the side of the screen */
+  }
+  .skip:focus {
+    left: 10px; /* bring it back when tabbed to */
+  }
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>A11y</h1>
+  </header>
+
+  <section>
+    <h3>Tab index</h3>
+  <div>
+    <a href="#maincontent" class="skip" tabindex="1">Skip to Content</a> <!-- bookmark links jump you around the page -->
+    <br>
+    <a href="https://www.syr.edu" tabindex="4">Syracuse University</a>
+    <br>
+    <a href="https://ischool.syr.edu" tabindex="3">iSchool</a>
+    <br>
+    <a href="https://soe.syr.edu" tabindex="2"> School of Education</a>
+  </div>
+</section>
+  
+  <section>
+    <h2>Section 508</h2>
+
+    <h3>Semantic Tags</h3>
+    <ol>
+      <li>Header: includes nav, main image</li>
+      <li>Footer: social media, copyright</li>
+      <li>Article: used only for news articles or blog posts, otherwise use section</li>
+      <li>Aside</li>
+    </ol>
+  </section>
+
+  <section>
+    <h3>Alt attributes</h3>
+      <div>Describe your image; if images are only decorative, omit an alt tag</div>
+
+      <h3>Color accessibility</h3>
+        <div>High color contrast</div>
+  </section>
+
+  <section>
+        <h3>Main Content Area</h3>
+        <p id="maincontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolores sed in beatae quisquam sunt ullam dignissimos? Neque tenetur, debitis excepturi expedita velit hic repellat laborum quidem deserunt, aliquam aliquid.</p>
+  </section>
+  
+</body>
+
+</html>

@@ -57,7 +57,7 @@
     {color: var(--brown);
       font-family: 'Quicksand', sans-serif;}
   @media only screen and (min-width: 800px) {
-    .banner {display: none;}
+    .banner {display: none; width: 100%;}
   }
 
 /* SKILLS */
@@ -113,18 +113,13 @@
       display: flex;
       justify-content: space-around;
       flex: 1; order: 1;
-      /* TEMPORARY */ 
-      border-style: solid;
-      border-color: green;}
+      }
   .contact2
     {background-color: var(--lightblue);
       display: flex;
       justify-content: space-around;
       margin-top: 10px;
-      flex: 1; order: 2;
-      /* TEMPORARY */
-      border-style: solid;
-      border-color: red;}
+      flex: 1; order: 2;}
   .right2, .left2 
     {flex: 1;}
   .right1, .left1, .right2, .left2
@@ -140,4 +135,17 @@
       font-family: 'Tilt Warp', cursive;}
   input [type=text]
     {border:1px var(--lightblue);}
+  /* TEMPORARY: */
+  .right1
+    {border-style: solid;
+      border-color: green;}
+  .right2 
+    {border-style: solid;
+      border-color: red;}
+  .left1 
+    {border-style: solid;
+      border-color: yellow;}
+  .left2 
+    {border-style: solid;
+      border-color: aqua;}
   
