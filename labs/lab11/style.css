@@ -87,13 +87,15 @@ div
     /* TEMPORARY */
     border-style: solid;
     border-color: red;}
-.skillsicons, .skillslabels
+.skillsicons
   {display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* TEMPORARY */
     border-style: solid;
     border-color:aqua;}
+.skillsicon
+  {width: 25%;}
 .skillstext
   {padding: 10px;
     margin-bottom: 10px;

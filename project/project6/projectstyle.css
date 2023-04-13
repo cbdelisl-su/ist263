@@ -13,8 +13,9 @@
     {display: flex;}
   nav a
     {color: white;
-      padding: 15px;
-      font-family: 'Quicksand', sans-serif;}
+      padding: 10px;
+      font-family: 'Quicksand', sans-serif;
+      margin-top: 10px;}
   .contact
     {color: white;
       border-style: solid;
