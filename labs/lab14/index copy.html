@@ -1,0 +1,84 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Home</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Quicksand:wght@300&family=Tilt+Warp&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Tilt+Warp&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            #hamicon {width: 35px; display: none;}
+            /* this display tuurns off the hamburger icon when the screen is large */
+            @media only screen and (max-width:800px) {
+                nav a {
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: block;
+                }
+                span {display: none;}
+                #hamicon {display: block;}
+                /* 2. Only want the image to show when the screen is small. */
+                #navlinks {display: none;}
+                /* 3. Need to hide the stacked navigation when the screen in small.*/
+            }
+        </style>
+    
+        <script>
+            /* To Do:
+                HTML
+                1. Add the image for the hamburger
+                CSS Media Query
+                2. Only want the image to show when the screen is small
+                3. Need to hide the stacked navigation when the screen is small.
+                JavaScript
+                4. Turn on the stacked navigation when the user clicks the hamburger.
+                5. Turn the navigation back off when the user clicks the hamburger again. */
+
+            function TurnNavOnOff() {
+                /* If stacked nav is showing, do display none, else display block */
+
+                if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                    document.getElementById('navlinks').style.display = 'none';
+                }
+                else {
+                    document.getElementById('navlinks').style.display = 'block';
+                }
+               
+            }
+            /* 4. Turn on the stacked navigation when the user clicks the hamburger. */
+            /* 5. Turn the navigation back ooff when the user clicks the hamburger again. */
+
+        </script>
+    
+    </head>
+
+    <body>
+    
+    <nav>
+        <img src="hamburger.png" alt="menu icon" id="hamicon" onclick="TurnNavOnOff();">
+        <!-- 1. Add the image for the hamburger. -->
+        <a href="#maincontenthome" class="skip" tabindex="1">Skip to content</a>
+        <div id="navlinks">
+            <a href="index.html">Home</a> <span class="pipe">|</span>
+            <a href="skills-07.html">Skills</a> <span class="pipe">|</span>
+            <a href="resume.html">Resume</a> <span class="pipe">|</span>
+            <a href="contact-07.html">Contact</a>
+        </div>
+        
+    </nav>
+    
+    </body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit 13 Notes</title>
+
+  <Style>
+    #myfirsttag {background-color: aqua;}
+    img {width: 30%;}
+  </Style>
+
+  <script>
+    function changeText() {
+      document.getElementById("myfirsttag").innerHTML = "<p>Hello World!</p>"
+      /* The above code locates an element by id and then changes the contents of that element */
+    }
+
+    function changeimage () {
+      document.getElementById("rollover").setAttribute('src','../project/images/fish2.png');
+    }
+      /* selecting the element with id of rollover, changing the attribute value when the event happens */
+    function changeback () {
+      document.getElementById("rollover").setAttribute('src','../project/images/fish.png');
+    }
+    function changebgcolor () {
+      /* 1. locate the place I'm goiong to change the bg color
+          2. get the calue of the color and set the bg color to that*/
+          document.getElementById("pagecolor").style.backgroundColor = 
+          document.getElementById("cp").value; 
+    }
+
+  </script>
+
+</head>
+
+<body id="pagecolor">
+
+  <div id="myfirsttag" onclick="changeText();"> <br> </div>
+
+  <!-- running the changeTtext function when the element is clicked -->
+  <!-- provides a location for our dunamic text display -->
+  
+  <img src="../project/images/fish.PNG" id="rollover" onmouseover="changeimage();" onmouseout="changeback();">
+  <!-- this image element has two events - somethingwill happen when mouse hovers over, and something else when it leaves-->
+
+  <form>
+    <input type="color" id="cp" onchange="changebgcolor();">
+    <!-- new form input type: color picker 
+      onchange happens every time the color picker changes -->
+  </form>
+
+</body>
+
+</html>
