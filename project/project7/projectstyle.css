@@ -1,0 +1,140 @@
+/* ALL */
+
+  :root
+    {--green: #32a852;
+      --orange: #ff8800;
+      --pink: #fa4b85;
+      --blue: #8df0f7;}
+  nav
+    {background-color: var(--green);
+      display: flex;
+      justify-content: space-between;}
+  .navsplit
+    {display: flex;}
+  nav a
+    {color: white;
+      padding: 10px;
+      font-family: 'Tilt Warp', cursive;
+      margin-top: 10px;}
+  .contact
+    {color: white;
+      border-style: solid;
+      border-color: white;
+      padding: 5px;}
+  nav a:hover
+    {background-color: white;
+      color: var(--green);
+      padding: 5px;
+      font-family: 'Delicious Handrawn', cursive;
+      font-size: 1.5em;}
+  .skip 
+    {background-color: var(--orange);
+      color: white;
+      font-family: 'Delicious Handrawn', cursive;
+      padding: 5px;
+      border: 1px solid #000000;
+      text-decoration: none;
+      position: absolute; /* position element relative to top left of viewport */
+      top: 10px;
+      left: -999px; /* push it off the side of the screen */}
+  .skip:focus 
+    {left: 10px; /* bring it back when tabbed to */}
+  @media only screen and (max-width: 800px) 
+    {nav a 
+      {width:100%;
+      display: block;}}
+  p
+    {font-family: 'Quicksand', sans-serif;
+      margin: 30px;}
+  div
+    {font-family: 'Quicksand', sans-serif;
+      margin: 30px;}
+  h1
+    {font-family: 'Delicious Handrawn', cursive;
+      color: var(--blue);
+      font-size: 3em;
+      margin: 30px;}
+  h2
+    {font-size: 2em;}
+  .dohead
+    {font-family: 'Tilt Warp', cursive;
+      color: var(--pink);
+      margin: 30px;}
+  .donthead
+    {font-family: 'Tilt Warp', cursive;
+      color: var(--orange);
+      margin: 30px;}
+  .pinktext
+    {font-family: 'Delicious Handrawn', cursive;
+      color: var(--pink);
+      font-size: 2em;}
+  .orangetext
+    {font-family: 'Delicious Handrawn', cursive;
+      color: var(--orange);
+      font-size: 2em;}
+  img 
+    {width:200px;
+      border-style: solid;
+      border-color: var(--blue);
+      margin-left: 30px;
+      margin-right: 30px;}
+
+/* HOME */
+
+.welcome {
+  color: var(--orange);
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+}
+#letter 
+  {margin: 60px;
+  background-color:white;
+  padding: 10px;}  
+#home 
+  {background-color:#8df0f7;}
+.dearmen, .cali
+    {color: var(--pink);
+      font-family:'Delicious Handrawn', cursive;
+      font-size: 3em;}
+  .theory
+    {color: var(--orange);
+      font-family: 'Delicious Handrawn', cursive;
+      font-size: 2em;}
+  
+
+/* PHOTOS */
+
+  .photos 
+    {color: var(--blue);
+      font-family: 'Tilt Warp', cursive;
+      text-align: center;}
+  #cat 
+    {display: flex;
+      float: left;}
+  #taller 
+    {clear: both;}
+
+/* BIOS */
+
+  .bios 
+    {color: var(--blue);
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;}  
+  a
+    {color: var(--orange)}
+  /* #biopoints
+    {display: flex;} */
+  #dontbios
+    {float: left;}
+
+/* CONVERSING */
+
+  .conversing 
+    {color: var(--blue);
+      font-family: 'Tilt Warp', cursive;
+      text-align: center;} 
+  #conversingpoints
+    {display:flex;}
+  #dontconversing
+    {float: right;}
+  
