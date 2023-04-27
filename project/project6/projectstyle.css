@@ -14,7 +14,7 @@
   nav a
     {color: white;
       padding: 10px;
-      font-family: 'Quicksand', sans-serif;
+      font-family: 'Tilt Warp', cursive;
       margin-top: 10px;}
   .contact
     {color: white;
@@ -57,27 +57,47 @@
   h2
     {font-size: 2em;}
   .dohead
-    {font-family: 'Delicious Handrawn', cursive;
+    {font-family: 'Tilt Warp', cursive;
       color: var(--pink);
       margin: 30px;}
   .donthead
-    {font-family: 'Delicious Handrawn', cursive;
+    {font-family: 'Tilt Warp', cursive;
       color: var(--orange);
       margin: 30px;}
   .pinktext
-    {color: var(--pink);}
+    {font-family: 'Delicious Handrawn', cursive;
+      color: var(--pink);
+      font-size: 2em;}
   .orangetext
-    {color: var(--orange);}
+    {font-family: 'Delicious Handrawn', cursive;
+      color: var(--orange);
+      font-size: 2em;}
   img 
     {width:200px;
       border-style: solid;
       border-color: var(--blue);
       margin-left: 30px;
       margin-right: 30px;}
+  hr
+    {color: var(--green);
+    }
 
 /* HOME */
 
-  .dearmen, .cali
+.welcome {
+  color: var(--orange);
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+}
+#letter {
+  margin: 60px;
+  background-color:white;
+  padding: 10px;
+}  
+#home {
+  background-color:#8df0f7;
+}
+.dearmen, .cali
     {color: var(--pink);
       font-family:'Delicious Handrawn', cursive;
       font-size: 3em;}
@@ -89,26 +109,42 @@
 
 /* PHOTOS */
 
+  .photos {
+    color: var(--blue);
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+  }
+  #cat {
+    display: flex;
+    float: left;
+  }
+  #taller {
+    clear: both;
+  }
+
 /* BIOS */
 
+  .bios {
+    color: var(--blue);
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+  }  
   a
     {color: var(--orange)}
+  /* #biopoints
+    {display: flex;} */
+  #dontbios
+    {float: left;}
 
 /* CONVERSING */
 
-  .doleft
-    {border-style: solid;
-      border-color: yellow;
-      float: left;}
-  .doright
-    {float: right;
-      border-style:solid;
-      border-color: red;}
-  .dontleft
-    {border-style: solid;
-      border-color: yellow;}
-  .dontright
-    {border-style: solid;
-      border-color: red;}
-  .donthead
-    {clear:both;}
+  .conversing {
+    color: var(--blue);
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+  } 
+  #conversingpoints
+    {display:flex;}
+  #dontconversing
+    {float: right;}
+  
