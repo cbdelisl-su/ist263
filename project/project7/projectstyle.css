@@ -52,10 +52,10 @@
   h1
     {font-family: 'Delicious Handrawn', cursive;
       color: var(--blue);
-      font-size: 3em;
+      font-size: 4em;
       margin: 30px;}
   h2
-    {font-size: 2em;}
+    {font-size: 3em;}
   .dohead
     {font-family: 'Tilt Warp', cursive;
       color: var(--pink);
@@ -81,6 +81,27 @@
 
 /* HOME */
 
+#modal 
+  {position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--pink);
+    color: var(--pink);
+    display: none;
+  }
+.x 
+  {position: absolute;
+    top: 0px;
+    right: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+  }
+.button
+  {cursor: pointer;}
 .welcome {
   color: var(--orange);
   font-family: 'Tilt Warp', cursive;
@@ -113,6 +134,17 @@
       float: left;}
   #taller 
     {clear: both;}
+  .pic 
+    {display: flex;}
+  .col
+    {flex: 1;
+      text-align: center;}
+  #fish1:hover
+    {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+  #pose1:hover
+    {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+  #car:hover
+    {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
 
 /* BIOS */
 
