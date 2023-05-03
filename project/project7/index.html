@@ -49,6 +49,18 @@
   <header>
     <h1 class="welcome">Welcome, Tinder Tools!</h1>
   </header>
+  
+  <h3 id="subscribe"><a class="button" onclick="openModal();">Subscribe for more tips</a></h3>
+  
+  <div id="modal">
+    <span class="x" onclick="closeModal();">&times;</span>
+    <form action="" method="post">
+      
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email">
+      <input onclick="closeModal();" type="submit" value="submit">
+    </form>
+  </div>
 
   <section>
     <div id="letter">

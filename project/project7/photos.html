@@ -39,6 +39,12 @@
     function changeobjectimageback () {
       document.getElementById("car").setAttribute('src','../images/gun.png');
     }
+    function openModal () {
+    document.getElementById("modalphotos").style.display = "block";
+      }
+  function closeModal () {
+    document.getElementById("modalphotos").style.display = "none";
+      }
   </script>
 
 </head>
@@ -61,6 +67,18 @@
   <header>
     <h1 class="photos">Photos</h1>
   </header>
+
+  <h3 id="subscribe"><a class="button" onclick="openModal();">Subscribe for more tips</a></h3>
+  
+  <div id="modalphotos">
+    <span class="x" onclick="closeModal();">&times;</span>
+    <form action="" method="post">
+      
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email">
+      <input onclick="closeModal();" type="submit" value="submit">
+    </form>
+  </div>
 
   <p>
     Let’s be real, if you don’t believe in judging a book by its cover, then dating apps are not the place for you. Your pictures are the first (and sometimes only) thing girls will look at and judge you for. Therefore, we don’t mess around with them. Finding the perfect balance of “I’m chill and nonchalant” and “I also happen to be hot” can be tricky. Luckily, the following tips can help.

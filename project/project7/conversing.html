@@ -20,6 +20,15 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 
+  <script>
+    function openModal () {
+      document.getElementById("modalconversing").style.display = "block";
+      }
+    function closeModal () {
+      document.getElementById("modalconversing").style.display = "none";
+      }
+  </script>
+
 </head>
 
 <body>
@@ -40,6 +49,18 @@
   <header>
     <h1 class="conversing">Conversing</h1>
   </header>
+
+  <h3 id="subscribe"><a class="button" onclick="openModal();">Subscribe for more tips</a></h3>
+  
+  <div id="modalconversing">
+    <span class="x" onclick="closeModal();">&times;</span>
+    <form action="" method="post">
+      
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email">
+      <input onclick="closeModal();" type="submit" value="submit">
+    </form>
+  </div>
 
   <section>
     <p>

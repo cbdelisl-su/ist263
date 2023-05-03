@@ -20,6 +20,15 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 
+  <script>
+    function openModal () {
+      document.getElementById("modalbios").style.display = "block";
+      }
+    function closeModal () {
+      document.getElementById("modalbios").style.display = "none";
+      }
+  </script>
+
 </head>
 
 <body>
@@ -40,6 +49,18 @@
   <header>
     <h1 class="bios">Bios</h1>
   </header>
+
+  <h3 id="subscribe"><a class="button" onclick="openModal();">Subscribe for more tips</a></h3>
+  
+  <div id="modalbios">
+    <span class="x" onclick="closeModal();">&times;</span>
+    <form action="" method="post">
+      
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" name="email">
+      <input onclick="closeModal();" type="submit" value="submit">
+    </form>
+  </div>
 
   <section>
     <p>So if you are fortunate enough that your photos made it past the initial scrutiny of the female gaze, you better make sure your About Me’s carry their weight. While you are more limited in this realm than you are with your photos, it is still a crucial area where your personality can show… for better or worse.</p>

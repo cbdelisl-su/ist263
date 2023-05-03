@@ -54,6 +54,30 @@
       color: var(--blue);
       font-size: 4em;
       margin: 30px;}
+  .x 
+    {position: absolute;
+      top: 0px;
+      right: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 2em;}
+  .button
+    {cursor: pointer;
+      font-family: 'Tilt Warp', cursive;
+      text-align: center;
+      border-style: solid;
+      border-color: var(--orange);
+      padding: 10px;
+      background-color: var(--orange);
+      color: white;}
+  .button:hover
+    {font-family: 'Delicious Handrawn', cursive;
+      font-size: 1.5em;
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+  #subscribe 
+    {color: var(--orange);
+      font-family: 'Tilt Warp', cursive;
+      text-align: center;}
   h2
     {font-size: 3em;}
   .dohead
@@ -81,36 +105,24 @@
 
 /* HOME */
 
+.welcome 
+  {color: var(--orange);
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;}
 #modal 
   {position: absolute;
     top: 50%;
     left: 40%;
     background-color: var(--blue);
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     border: 2px solid var(--pink);
     color: var(--pink);
-    display: none;
-  }
-.x 
-  {position: absolute;
-    top: 0px;
-    right: 8px;
-    color: white;
-    cursor: pointer;
-    font-size: 2em;
-  }
-.button
-  {cursor: pointer;}
-.welcome {
-  color: var(--orange);
-  font-family: 'Tilt Warp', cursive;
-  text-align: center;
-}
+    display: none;}
 #letter 
   {margin: 60px;
-  background-color:white;
-  padding: 10px;}  
+    background-color:white;
+    padding: 10px;}  
 #home 
   {background-color:#8df0f7;}
 .dearmen, .cali
@@ -129,6 +141,16 @@
     {color: var(--blue);
       font-family: 'Tilt Warp', cursive;
       text-align: center;}
+  #modalphotos 
+    {position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: var(--blue);
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid var(--pink);
+      color: var(--pink);
+      display: none;}
   #cat 
     {display: flex;
       float: left;}
@@ -151,7 +173,17 @@
   .bios 
     {color: var(--blue);
     font-family: 'Tilt Warp', cursive;
-    text-align: center;}  
+    text-align: center;}
+  #modalbios 
+    {position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: var(--blue);
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid var(--pink);
+      color: var(--pink);
+      display: none;}  
   a
     {color: var(--orange)}
   /* #biopoints
@@ -164,7 +196,17 @@
   .conversing 
     {color: var(--blue);
       font-family: 'Tilt Warp', cursive;
-      text-align: center;} 
+      text-align: center;}
+  #modalconversing 
+    {position: absolute;
+      top: 50%;
+      left: 40%;
+      background-color: var(--blue);
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid var(--pink);
+      color: var(--pink);
+      display: none;} 
   #conversingpoints
     {display:flex;}
   #dontconversing
